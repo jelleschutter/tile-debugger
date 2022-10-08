@@ -1,9 +1,9 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
-import counterReducer from '../features/counter/counterSlice';
+import leafletMapReducer from '../features/leafletMap/leafletMapSlice';
 
 export const store = configureStore({
   reducer: {
-    counter: counterReducer,
+    leafletMap: leafletMapReducer,
   },
 });
 
